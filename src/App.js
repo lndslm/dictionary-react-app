@@ -14,7 +14,16 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Open-sourced code by Linda Salim</footer>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/lndslm/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Open-sourced code
+          </a>{" "}
+          by Linda Salim
+        </footer>
       </div>
     </div>
   );
