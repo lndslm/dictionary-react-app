@@ -1,4 +1,19 @@
+.Dictionary section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Dictionary h5 {
+  padding-bottom: 10px;
+}
+
 .Dictionary .Search-engine {
-  margin: 30px auto;
   text-align: center;
+}
+
+.Dictionary form {
+  width: 100%;
 }

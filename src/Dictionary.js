@@ -24,13 +24,13 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <div className="Search-engine">
-        <h5 className="pb-3">What word are you looking for ?</h5>
+      <section className="Search-engine">
+        <h5>What word are you looking for ?</h5>
         <form onSubmit={Search}>
           <input type="search" onChange={handleKeywordChange} />
           <input type="submit" value="Search" className="ms-2" />
         </form>
-      </div>
+      </section>
       <Results results={results} />
     </div>
   );
