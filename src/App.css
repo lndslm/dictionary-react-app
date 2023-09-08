@@ -3,6 +3,13 @@
   background: #f0f0f4;
 }
 
+.App .container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .App-header .hero {
   background-image: url(books.jpg);
   height: 300px;
